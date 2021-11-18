@@ -50,7 +50,7 @@ else{
 document.querySelector("#slider").addEventListener("input", function() {
 	console.log(video.volume);
 	video.volume = document.querySelector("#slider").value*.001;
-	document.querySelector("#volume").textContent="Volume is: "+(video.volume*1000)+"%";	
+	document.querySelector("#volume").textContent=(video.volume*1000)+"%";	
 });	
 //styled
 document.querySelector("#vintage").addEventListener("click", function() {
