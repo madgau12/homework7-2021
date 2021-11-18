@@ -49,7 +49,7 @@ else{
 document.querySelector("#slider").addEventListener("input", function() {
 	console.log(video.volume);
 	video.volume = document.querySelector("#slider").value/100;
-	document.querySelector("#volume").textContent=(video.volume*100)+"%";	
+	document.querySelector("#volume").innerHTML=(video.volume*100)+"%";	
 });	
 //styled
 document.querySelector("#vintage").addEventListener("click", function() {
